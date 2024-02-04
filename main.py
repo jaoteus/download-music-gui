@@ -47,7 +47,7 @@ botaoBaixarMusica.grid(row=2, column=0, padx=0, pady=15)
 textoComMeuNome = Label(janelaPrincipal, text="Made by Mateus", font=("Arial", 7, "italic"))
 textoComMeuNome.place(relx=0.41,rely=0.3, relheight=1.2, relwidth=1.05)
 
-localParaColocarUrl = Entry(janelaPrincipal, width=90)
+localParaColocarUrl = Entry(janelaPrincipal, width=89)
 localParaColocarUrl.grid(row=1, column=1, padx=10, pady=10)
 
 # Loop da janela principal

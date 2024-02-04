@@ -15,7 +15,6 @@ janelaPrincipal = Tk()
 janelaPrincipal.title("Baixar Músicas")
 janelaPrincipal.geometry("700x150")
 janelaPrincipal.resizable(False, False)
-# janelaPrincipal.iconbitmap("/images/icone_download.png")
 
 # Funções
 def escolherDiretorio():

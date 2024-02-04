@@ -15,6 +15,7 @@ janelaPrincipal = Tk()
 janelaPrincipal.title("Baixar Músicas")
 janelaPrincipal.geometry("700x150")
 janelaPrincipal.resizable(False, False)
+# janelaPrincipal.iconbitmap("/images/icone_download.png")
 
 # Funções
 def escolherDiretorio():
@@ -44,7 +45,7 @@ textoDoPrimeiroLabel.grid(row=1, column=0, padx=10, pady=10)
 botaoBaixarMusica = Button(janelaPrincipal, text="Baixar Música", command=baixarMusica)
 botaoBaixarMusica.grid(row=2, column=0, padx=0, pady=15)
 
-textoComMeuNome = Label(janelaPrincipal, text="Made by João Mateus")
+textoComMeuNome = Label(janelaPrincipal, text="Made by João Mateus", font=("Arial", 7, "italic"))
 textoComMeuNome.place(relx=0.41,rely=0.3, relheight=1.2, relwidth=0.99)
 
 localParaColocarUrl = Entry(janelaPrincipal, width=90)

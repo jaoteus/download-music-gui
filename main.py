@@ -6,9 +6,9 @@ from tkinter import messagebox
 # Diretório de saída
 diretorioDeSaida = ""
 mensagemDeErro = '''
-Algo de errado aconteceu...
-Verifique se você está conectado a internet ou se você esqueceu de preencher a URL e escolher o diretório!
-'''
+    Algo de errado aconteceu...
+    Verifique se você está conectado a internet ou se você esqueceu de preencher a URL e escolher o diretório!
+    '''
 
 # Configurações iniciais da janela
 janelaPrincipal = Tk()
